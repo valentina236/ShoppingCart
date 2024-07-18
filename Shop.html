@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shop</title>
+    <link rel="icon" type="image/x-icon" href="icon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div style="position: relative;">
+        <h1 style="margin: 55px 0px 0px 200px; font-size: 56px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Shop</h1>
+        <hr color="#e6e6e6" style="width: 54%; position: absolute; margin-left: 130px;">
+    </div>
+    <div class="container">
+        <div class="main">
+            <div class="sneakers">
+                <p class="title">Nike Bruin Mid</p>
+                <img src="nike-icon.png" alt="Nike">
+                <p class="price">$29.99</p>
+                <div class="input-box">
+                    <span>How many?</span>
+                    <input type="number" min="1" max="100">
+                </div>
+                <div class="button-container">
+                    <button type="button" class="button">Add to Basket</button>
+                    <button class="star-btn">☆</button> 
+                </div>     
+            </div>
+            <div class="sneakers">
+                <p class="title">Converse All Star Mono Ox</p>
+                <img src="converse-monox-icon.png" alt="Converse">
+                <p class="price">$45.00</p>
+                <div class="input-box">
+                    <span>How many?</span>
+                    <input type="number" min="1" max="100">
+                </div>
+                <div class="button-container">
+                    <button type="button" class="button">Add to Basket</button>
+                    <button class="star-btn">☆</button> 
+                </div>                            
+            </div>
+            <div class="sneakers">
+                <p class="title">Converse Simpsons Bart Hi Trainers</p>
+                <img src="converse-simpsons-icon.png" alt="Converse">
+                <p class="price">$24.99</p>
+                <div class="input-box">
+                    <span>How many?</span>
+                    <input type="number" min="1" max="100">
+                </div>
+                <div class="button-container">
+                    <button type="button" class="button">Add to Basket</button>
+                    <button class="star-btn">☆</button> 
+                </div>     
+            </div>
+        </div>
+        <div class="shop-cart">
+            <h2 style="font-style: italic;">Shopping Cart</h2>
+            <div id="cart">
+                <p>Total Items: <span id="totalItems" style="font-weight: bold;">0</span></p>
+                <p>Total Units: <span id="totalUnits" style="font-weight: bold;">0</span></p>
+                <p>Total Price: <span id="totalPrice" style="font-weight: bold;">$0.00</span></p>
+            </div>
+        </div>
+    </div>
+    <script src="ex-1.js"></script>
+</body>
+</html>
